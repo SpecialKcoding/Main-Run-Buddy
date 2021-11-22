@@ -72,12 +72,21 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('../images/flipped-hero-image.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
 /* Hero Style End */
 
 .hero-form {
